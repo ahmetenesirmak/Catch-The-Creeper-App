@@ -37,6 +37,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD0869FC28C539ED00C0065C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD2021F827142ECC00AC1BBF /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CD0869FD28C539F900C0065C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CD2021FA27142ECC00AC1BBF /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		CD0869FE28C53A0100C0065C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CD2021FD27142ECD00AC1BBF /* Assets.xcassets */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		CD0869FF28C53A0800C0065C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CD2021F427142ECC00AC1BBF /* AppDelegate.swift */,
+				CD2021F627142ECC00AC1BBF /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		CD2021E827142ECC00AC1BBF = {
 			isa = PBXGroup;
 			children = (
@@ -56,11 +89,10 @@
 		CD2021F327142ECC00AC1BBF /* CatchTheCreeper */ = {
 			isa = PBXGroup;
 			children = (
-				CD2021F427142ECC00AC1BBF /* AppDelegate.swift */,
-				CD2021F627142ECC00AC1BBF /* SceneDelegate.swift */,
-				CD2021F827142ECC00AC1BBF /* ViewController.swift */,
-				CD2021FA27142ECC00AC1BBF /* Main.storyboard */,
-				CD2021FD27142ECD00AC1BBF /* Assets.xcassets */,
+				CD0869FC28C539ED00C0065C /* Controller */,
+				CD0869FD28C539F900C0065C /* Storyboard */,
+				CD0869FE28C53A0100C0065C /* Util */,
+				CD0869FF28C53A0800C0065C /* App */,
 				CD2021FF27142ECD00AC1BBF /* LaunchScreen.storyboard */,
 				CD20220227142ECD00AC1BBF /* Info.plist */,
 			);
